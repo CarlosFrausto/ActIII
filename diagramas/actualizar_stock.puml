@@ -1,0 +1,12 @@
+@startuml
+start
+:Solicitar ID;
+if (¿Existe?) then (Sí)
+:Solicitar cantidad;
+:Incrementar stock;
+:Guardar Excel;
+else
+:Mostrar error;
+endif
+stop
+@enduml

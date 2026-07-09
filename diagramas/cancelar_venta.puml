@@ -1,0 +1,17 @@
+@startuml
+start
+:Solicitar ID;
+if (¿Existe?) then (Sí)
+:Solicitar cantidad;
+if (cantidad <= ventas_totales) then (Sí)
+:Disminuir ventas;
+:Aumentar stock;
+:Guardar Excel;
+else
+:Mostrar error;
+endif
+else
+:Producto inexistente;
+endif
+stop
+@enduml

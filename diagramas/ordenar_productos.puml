@@ -1,0 +1,7 @@
+@startuml
+start
+:Elegir criterio;
+:Ordenar lista;
+:Mostrar productos;
+stop
+@enduml

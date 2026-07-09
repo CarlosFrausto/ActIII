@@ -1,0 +1,7 @@
+@startuml
+start
+:Elegir criterio;
+:Aplicar sorted();
+:Mostrar lista ordenada;
+stop
+@enduml
