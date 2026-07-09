@@ -4,6 +4,8 @@
 
 Sistema desarrollado en Python que permite administrar un catálogo de productos, controlar el inventario y gestionar ventas.
 
+La carpeta tienda tiene el código, la carpeta diagramas tiene los PUML.
+
 ## Funciones
 
 - Registrar productos
