@@ -1,0 +1,13 @@
+@startuml
+start
+:Solicitar datos del producto;
+if (¿ID existe?) then (Sí)
+:Mostrar error;
+stop
+else (No)
+:Crear producto;
+:Guardar en diccionario;
+:Confirmar registro;
+endif
+stop
+@enduml
